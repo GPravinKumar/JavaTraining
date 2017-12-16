@@ -13,7 +13,7 @@ public class Sales {
 		s3.display();
 		System.out.println("No. Of Persons " + SalesPerson.noOfPersons);
 		System.out.println("Total Sales " + SalesPerson.tsales);
-		/*comments added*/
+		/*comments added version 2*/
 	}
 
 }
