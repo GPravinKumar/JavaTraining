@@ -17,8 +17,8 @@ public class CircleInstance {
 		obj.rad = r;
 		double a = obj.area();
 		double p = obj.peri();
-		System.out.println("Enter the Area of Circle : " + a);
-		System.out.println("Enter the Perimeter of Circle : " + p);
+		System.out.println("The Area of Circle : " + a);
+		System.out.println("The Perimeter of Circle : " + p);
 
 		sc.close();
 
