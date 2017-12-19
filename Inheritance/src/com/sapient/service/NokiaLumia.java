@@ -10,6 +10,7 @@ public class NokiaLumia extends Nokia1100{
 	}
 	@Override
 	public void doConverse() {
+		//super.doConverse();
 		System.out.println("do Converse 4g");
 	}
 	
