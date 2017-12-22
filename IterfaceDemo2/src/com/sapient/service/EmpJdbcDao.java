@@ -35,7 +35,7 @@ public class EmpJdbcDao implements Idao{
 		}catch(SQLException e){
 			System.out.println(e.getMessage());
 		}finally{
-			closeConn(conn);
+			closeConn(conn); //close connections in finally block
 		}
 		return lst;
 	}
