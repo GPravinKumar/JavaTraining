@@ -1,14 +1,13 @@
 package com.sapien.service;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.Set;
 
 import com.sapient.dao.ExamDaoImpl;
 import com.sapient.dao.Idao;
+import com.sapient.util.ExamUtil;
 import com.sapient.vo.Answer;
 import com.sapient.vo.Questions;
 
@@ -34,7 +33,7 @@ public class ExamSerImpl implements IExamSer {
 	@Override
 	public List<Questions> generateQuestionS() {
 		List<Questions> lst = new ArrayList<Questions>();
-		Set<Integer> qids = generateQuesNos(5);
+		Set<Integer> qids = ExamUtil.generateUniquesNos(5);
 		Questions ques = null;
 		for (int qno : qids) {
 			ques = qmap.get(qno);
@@ -53,14 +52,6 @@ public class ExamSerImpl implements IExamSer {
 				++score;
 		}
 		return score;
-	}
-
-	public Set<Integer> generateQuesNos(int n) {
-		Set<Integer> set = new HashSet<>();
-		Random r = new Random();
-		while (set.size() < n)
-			set.add(r.nextInt(15) + 1);
-		return set;
 	}
 
 }
