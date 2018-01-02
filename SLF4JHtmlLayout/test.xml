@@ -1,0 +1,621 @@
+<log4j:event logger="sapient"
+             timestamp="1514887546458" level="DEBUG" thread="main">
+  <log4j:message>Hashmap initialized with 3 account instances</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="&lt;clinit&gt;" file="DaoImpl.java" line="23"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546461" level="DEBUG" thread="main">
+  <log4j:message>injecting dao</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="setDao" file="SerImpl.java" line="24"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546461" level="INFO" thread="main">
+  <log4j:message>dao initialized</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="setDao" file="SerImpl.java" line="26"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546461" level="INFO" thread="main">
+  <log4j:message>service instance is ready with dao dependancy</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="&lt;init&gt;" file="SerImpl.java" line="20"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546462" level="DEBUG" thread="main">
+  <log4j:message>service instance created</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="18"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546462" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1001 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="20"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546462" level="DEBUG" thread="main">
+  <log4j:message>checking the 1001 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546463" level="INFO" thread="main">
+  <log4j:message>Account ID 1001 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546463" level="DEBUG" thread="main">
+  <log4j:message>from account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="34"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546464" level="DEBUG" thread="main">
+  <log4j:message>checking the 1002 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546464" level="INFO" thread="main">
+  <log4j:message>Account ID 1002 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546464" level="DEBUG" thread="main">
+  <log4j:message>to account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546464" level="INFO" thread="main">
+  <log4j:message>1001 and 1002 accounts are updated successfully</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="41"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546464" level="INFO" thread="main">
+  <log4j:message>successfully transferred</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="22"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1003 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="28"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="DEBUG" thread="main">
+  <log4j:message>checking the 1003 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="INFO" thread="main">
+  <log4j:message>Account ID 1003 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="DEBUG" thread="main">
+  <log4j:message>from account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="34"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="DEBUG" thread="main">
+  <log4j:message>checking the 1002 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="INFO" thread="main">
+  <log4j:message>Account ID 1002 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546465" level="DEBUG" thread="main">
+  <log4j:message>to account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546468" level="ERROR" thread="main">
+  <log4j:message>no sufficient fund to transfer</log4j:message>
+  <log4j:throwable><![CDATA[	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:29)
+]]></log4j:throwable>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="32"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546468" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1003 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546468" level="DEBUG" thread="main">
+  <log4j:message>checking the 2003 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887546468" level="ERROR" thread="main">
+  <log4j:message>ID not found</log4j:message>
+  <log4j:throwable><![CDATA[	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:32)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:33)
+	at com.sapient.client.TransferClient.main(TransferClient.java:37)
+]]></log4j:throwable>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="40"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779602" level="DEBUG" thread="main">
+  <log4j:message>Hashmap initialized with 3 account instances</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="&lt;clinit&gt;" file="DaoImpl.java" line="23"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779605" level="DEBUG" thread="main">
+  <log4j:message>injecting dao</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="setDao" file="SerImpl.java" line="24"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779605" level="INFO" thread="main">
+  <log4j:message>dao initialized</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="setDao" file="SerImpl.java" line="26"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779605" level="INFO" thread="main">
+  <log4j:message>service instance is ready with dao dependancy</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="&lt;init&gt;" file="SerImpl.java" line="20"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779605" level="DEBUG" thread="main">
+  <log4j:message>service instance created</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="18"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779606" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1001 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="20"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779606" level="DEBUG" thread="main">
+  <log4j:message>checking the 1001 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779607" level="INFO" thread="main">
+  <log4j:message>Account ID 1001 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779607" level="DEBUG" thread="main">
+  <log4j:message>from account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="34"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779607" level="DEBUG" thread="main">
+  <log4j:message>checking the 1002 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779608" level="INFO" thread="main">
+  <log4j:message>Account ID 1002 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779608" level="DEBUG" thread="main">
+  <log4j:message>to account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779608" level="INFO" thread="main">
+  <log4j:message>1001 and 1002 accounts are updated successfully</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="41"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779608" level="INFO" thread="main">
+  <log4j:message>successfully transferred</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="22"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779608" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1003 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="28"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779609" level="DEBUG" thread="main">
+  <log4j:message>checking the 1003 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779609" level="INFO" thread="main">
+  <log4j:message>Account ID 1003 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779609" level="DEBUG" thread="main">
+  <log4j:message>from account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="34"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779609" level="DEBUG" thread="main">
+  <log4j:message>checking the 1002 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779609" level="INFO" thread="main">
+  <log4j:message>Account ID 1002 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779610" level="DEBUG" thread="main">
+  <log4j:message>to account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779611" level="ERROR" thread="main">
+  <log4j:message>no sufficient fund to transfer</log4j:message>
+  <log4j:throwable><![CDATA[	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:29)
+]]></log4j:throwable>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="32"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779612" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1003 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779612" level="DEBUG" thread="main">
+  <log4j:message>checking the 2003 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514887779612" level="ERROR" thread="main">
+  <log4j:message>ID not found</log4j:message>
+  <log4j:throwable><![CDATA[	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:32)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:33)
+	at com.sapient.client.TransferClient.main(TransferClient.java:37)
+]]></log4j:throwable>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="40"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968601" level="DEBUG" thread="main">
+  <log4j:message>Hashmap initialized with 3 account instances</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="&lt;clinit&gt;" file="DaoImpl.java" line="23"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968604" level="DEBUG" thread="main">
+  <log4j:message>injecting dao</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="setDao" file="SerImpl.java" line="24"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968604" level="INFO" thread="main">
+  <log4j:message>dao initialized</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="setDao" file="SerImpl.java" line="26"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968605" level="INFO" thread="main">
+  <log4j:message>service instance is ready with dao dependancy</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="&lt;init&gt;" file="SerImpl.java" line="20"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968605" level="DEBUG" thread="main">
+  <log4j:message>service instance created</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="18"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968605" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1001 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="20"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968606" level="DEBUG" thread="main">
+  <log4j:message>checking the 1001 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968607" level="INFO" thread="main">
+  <log4j:message>Account ID 1001 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968607" level="DEBUG" thread="main">
+  <log4j:message>from account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="34"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968607" level="DEBUG" thread="main">
+  <log4j:message>checking the 1002 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968607" level="INFO" thread="main">
+  <log4j:message>Account ID 1002 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968608" level="DEBUG" thread="main">
+  <log4j:message>to account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968608" level="INFO" thread="main">
+  <log4j:message>1001 and 1002 accounts are updated successfully</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="41"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968608" level="INFO" thread="main">
+  <log4j:message>successfully transferred</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="22"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968608" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1003 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="28"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968608" level="DEBUG" thread="main">
+  <log4j:message>checking the 1003 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968609" level="INFO" thread="main">
+  <log4j:message>Account ID 1003 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968609" level="DEBUG" thread="main">
+  <log4j:message>from account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="34"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968609" level="DEBUG" thread="main">
+  <log4j:message>checking the 1002 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968609" level="INFO" thread="main">
+  <log4j:message>Account ID 1002 found</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="33"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968609" level="DEBUG" thread="main">
+  <log4j:message>to account retrieved</log4j:message>
+  <log4j:locationInfo class="com.sapient.service.SerImpl"
+                      method="transferFund" file="SerImpl.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968612" level="ERROR" thread="main">
+  <log4j:message>no sufficient fund to transfer</log4j:message>
+  <log4j:throwable><![CDATA[	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:29)
+]]></log4j:throwable>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="32"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968612" level="INFO" thread="main">
+  <log4j:message>transfer the amount Rs.5000 from account Id 1003 to 1002</log4j:message>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="36"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968612" level="DEBUG" thread="main">
+  <log4j:message>checking the 2003 against map key</log4j:message>
+  <log4j:locationInfo class="com.sapient.dao.DaoImpl"
+                      method="getAccount" file="DaoImpl.java" line="30"/>
+
+</log4j:event>
+
+<log4j:event logger="sapient"
+             timestamp="1514888968612" level="ERROR" thread="main">
+  <log4j:message>ID not found</log4j:message>
+  <log4j:throwable><![CDATA[	at com.sapient.dao.DaoImpl.getAccount(DaoImpl.java:32)
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:33)
+	at com.sapient.client.TransferClient.main(TransferClient.java:37)
+]]></log4j:throwable>
+  <log4j:locationInfo class="com.sapient.client.TransferClient"
+                      method="main" file="TransferClient.java" line="40"/>
+
+</log4j:event>
+
